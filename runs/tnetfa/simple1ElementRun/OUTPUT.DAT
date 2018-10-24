@@ -1,0 +1,41 @@
+1
+                                                 NETWORK THERMAL ANALYSIS
+
+
+        1 E       RES      ANCE                                                  
+        STA      TE                                                              
+0    UNITS=2
+0    NUMBER OF NODES=   3     NUMBER OF CONDUCTORS=   4
+0    NLOOP=  200     TPRINT=  200     NPRINT=    1     LOOPEN=  200     ALDT=0.1000E-02     BETA= 1.90
+0                                        LOOPCT=    0          MAXDT= 0.0000E+00
+
+                                                       TEMPERATURES
+
+     T(  1)=0.0000E+00    T(  2)=0.2000E+02    T(  3)=0.1000E+01
+0
+0                                        LOOPCT=  100          MAXDT= 0.8175E-03
+
+                                                       TEMPERATURES
+
+     T(  1)=0.0000E+00    T(  2)=0.1001E+01    T(  3)=0.2000E+01
+0
+0                                        LOOPCT=  100          MAXDT= 0.8175E-03
+
+0    DETAIL OF NODE  -1     TEMPERATURE=0.0000E+00     POWER=0.0000E+00     STABILITY CONSTANT =  0.00E+00     CAP=0.1000E-19
+0                           THIS IS A CONSTANT TEMPERATURE NODE
+0      NODE  CTYPE  CMODE       C       CONDUCTANCE        FLUX        REYN NO.   BNDRY LAYER     HYDR DIA    HT TRANS COEF
+          2     0         0.1000E+03    0.1000E+03    -.1001E+03
+                                           NET TOTAL =-.1001E+03
+0    DETAIL OF NODE   2     TEMPERATURE=0.1001E+01     POWER=0.0000E+00     STABILITY CONSTANT =  0.00E+00     CAP=0.1000E-19
+0      NODE  CTYPE  CMODE       C       CONDUCTANCE        FLUX        REYN NO.   BNDRY LAYER     HYDR DIA    HT TRANS COEF
+          3     0         0.1000E+03    0.1000E+03    -.1990E+03
+          1     0         0.1000E+03    0.1000E+03    0.1001E+01
+                                           NET TOTAL =-.1980E+03
+0    DETAIL OF NODE   3     TEMPERATURE=0.2000E+01     POWER=0.1000E+03     STABILITY CONSTANT =  0.00E+00     CAP=0.1000E-19
+0      NODE  CTYPE  CMODE       C       CONDUCTANCE        FLUX        REYN NO.   BNDRY LAYER     HYDR DIA    HT TRANS COEF
+          2     0         0.1000E+03    0.1000E+03    -.9806E+02
+                                           NET TOTAL =-.9806E+02
++                                                                            ENERGY BALANCE =-.3961E+03
+
+1
+1
