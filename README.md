@@ -1,4 +1,10 @@
 # EllisonTamsTnetfa
+
+## TAMS
+Thermal Analyzer for Multilayer Structures. Fourier series solution.
+## TNETFA
+Transient Network Thermal Analyzer. Thermal network solution.
+
 ## Reference 
 1. Thermal computations for electronic equipment by Gordon Ellison
 
