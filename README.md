@@ -1,4 +1,5 @@
 # EllisonTamsTnetfa
 ## Reference 
 ## Thermal computations for electronic equipment by Gordon Ellison
-[PDF](file:///Users/fabio/Downloads/EllisonGordon-ThermalComputationsforElectronics_ConductiveRadiativeandConvectiveAirCooling-CRCPress2010%20(1).pdf)
+
+[Ref](https://www.semanticscholar.org/paper/Thermal-Analysis-Of-An-Electronic-Package-Using-And-Ganesan-Rao/8206d711bdca08967b516eb094e2d7e1a7fac40e)
