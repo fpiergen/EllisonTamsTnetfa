@@ -1,0 +1,9 @@
+-1 Natural Convection with two air gaps light power into LCD
+-2 Natural Convection with two air gaps light power into air space 
+-3 Natural Convection with two air gaps light power 40W into air space 20W into LCD
+-4 Forced Convection outside fin side with two air gaps light power 40W into air space 20W into LCD.
+-5 Forced Convection outside fin side with two air gaps light power 40W into air space 20W into LCD.
+   try to use forced convection elements for inside faces, temps are high compared to test for 4
+-6 Forced Convection outside fin side with two air gaps light power 40W into air space 20W into LCD Forced conv inside with bigger fans.
+   predict temps for Tuesday's test
+WIP  working on model of last test with internal fans. Need to find what volumetric flow is.

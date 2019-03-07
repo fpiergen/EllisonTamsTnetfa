@@ -1,0 +1,22 @@
+TAXI TOP 1
+SIMPLE 7-NODE RESISTANCE MODEL
+1 2 0
+7 1 2 ? 0 7 0 2 0
+20.0 0.0
+7 0.0
+2 1.0 180.0
+4 1.0 50.0
+0 0
+1 2 3200.0 0 // Calculate resistance of sink base 20 X 40 X .125 ( kAk/L ) 5 * 800 / .125 
+2 3 400.0 101 // This is the air gap Asurface 20 x 40
+3 4 130.0 0 // LCD ( kAk/L ) .0203 * 800 / .125
+4 5 100.0 102 // air again 
+5 6 130.0 0  // Glass
+6 7 100.0 0 // Nat conv flat plate. See book for example
+1 7 xxx.x 1 // See example to do this dont forget to change on basic input line 3 (?) 
+???? this is the time dependent input stuff. again see example
+5 2
+5 .5
+200 1.9 0.001 200
+1.0 1.0
+200 1

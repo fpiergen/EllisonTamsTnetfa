@@ -1,0 +1,5 @@
+taxiTop1 - First try I think it was with resistors straight across not finished yet
+taxiTop2 - Used "Plastic Box" book example as a starting point then trying to incorporate
+           multiple cavities (2) within it like the card book example. Igonoring radiative
+           heat transfer.
+taxiTop2 - Trying with only one node on all faces before attempting multi-cavity.

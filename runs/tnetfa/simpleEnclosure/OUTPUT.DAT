@@ -1,0 +1,108 @@
+1
+                                                 NETWORK THERMAL ANALYSIS
+
+
+       MPLE                                                                      
+        PRO      EALE      OSUR      E                                           
+0    UNITS=2
+0    NUMBER OF NODES=   9     NUMBER OF CONDUCTORS=  36
+0    NLOOP=   25     TPRINT=    5     NPRINT=    1     LOOPEN=    5     ALDT=0.1000E-01     BETA= 1.00
+0    NATURAL CONVECTION PARAMETER
+
+       1    VERTICAL FLAT PLATE OR CYLINDER                                                              P=0.1000E+02
+       2    HORIZONTAL FLAT PLATE OR CYLINDER, HEATED SIDE FACING UP OR COOLED SIDE FACING DOWN          P=0.2500E+01
+       3    HORIZONTAL FLAT PLATE OR CYLINDER, HEATED SIDE FACING DOWN OR COOLED SIDE FACING UP          P=0.2500E+01
+0                                        LOOPCT=    0          MAXDT= 0.0000E+00
+
+                                                       TEMPERATURES
+
+     T(  1)=0.2000E+02    T(  2)=0.2000E+02    T(  3)=0.2000E+02    T(  4)=0.2000E+02    T(  5)=0.2000E+02    T(  6)=0.2000E+02
+     T(  7)=0.2000E+02    T(  8)=0.0000E+00    T(  9)=0.0000E+00
+0
+0                                        LOOPCT=    5          MAXDT= 0.3906E+00
+
+                                                       TEMPERATURES
+
+     T(  1)=0.1510E+02    T(  2)=0.5094E+01    T(  3)=0.5094E+01    T(  4)=0.5200E+02    T(  5)=0.5094E+01    T(  6)=0.5489E+01
+     T(  7)=0.4344E+01    T(  8)=0.0000E+00    T(  9)=0.0000E+00
+0
+0                                    ENERGY BALANCE =-.2424E-01
+
+0                                        LOOPCT=    8          MAXDT= 0.4757E-02
+
+                                                       TEMPERATURES
+
+     T(  1)=0.1514E+02    T(  2)=0.5124E+01    T(  3)=0.5124E+01    T(  4)=0.5194E+02    T(  5)=0.5124E+01    T(  6)=0.5525E+01
+     T(  7)=0.4365E+01    T(  8)=0.0000E+00    T(  9)=0.0000E+00
+0
+0                                        LOOPCT=    8          MAXDT= 0.4757E-02
+
+0    DETAIL OF NODE   1     TEMPERATURE=0.1514E+02     POWER=0.0000E+00     STABILITY CONSTANT =  0.00E+00     CAP=0.1000E-19
+0      NODE  CTYPE  CMODE       C       CONDUCTANCE        FLUX        REYN NO.   BNDRY LAYER     HYDR DIA    HT TRANS COEF
+          7   103     3   0.1000E+03    0.1649E+00    0.1777E+01                                              0.1649E-02
+          6   102     2   0.1000E+03    0.3203E+00    0.3081E+01                                              0.3203E-02
+          5   101     1   0.1000E+03    0.2501E+00    0.2506E+01                                              0.2501E-02
+          4   101     1   0.1000E+03    0.3363E+00    -.1237E+02                                              0.3363E-02
+          3   101     1   0.1000E+03    0.2501E+00    0.2506E+01                                              0.2501E-02
+          2   101     1   0.1000E+03    0.2501E+00    0.2506E+01                                              0.2501E-02
+                                           NET TOTAL =0.7558E-03
+0    DETAIL OF NODE   2     TEMPERATURE=0.5124E+01     POWER=0.0000E+00     STABILITY CONSTANT =  0.00E+00     CAP=0.1000E-19
+0      NODE  CTYPE  CMODE       C       CONDUCTANCE        FLUX        REYN NO.   BNDRY LAYER     HYDR DIA    HT TRANS COEF
+          8    -1         0.9000E+02    0.2755E+00    0.1412E+01                                              0.3061E-02
+          9   101     1   0.1000E+03    0.2135E+00    0.1094E+01                                              0.2135E-02
+          1   101     1   0.1000E+03    0.2501E+00    -.2506E+01                                              0.2501E-02
+                                           NET TOTAL =0.9274E-04
+0    DETAIL OF NODE   3     TEMPERATURE=0.5124E+01     POWER=0.0000E+00     STABILITY CONSTANT =  0.00E+00     CAP=0.1000E-19
+0      NODE  CTYPE  CMODE       C       CONDUCTANCE        FLUX        REYN NO.   BNDRY LAYER     HYDR DIA    HT TRANS COEF
+          8    -1         0.9000E+02    0.2755E+00    0.1412E+01                                              0.3061E-02
+          9   101     1   0.1000E+03    0.2135E+00    0.1094E+01                                              0.2135E-02
+          1   101     1   0.1000E+03    0.2501E+00    -.2506E+01                                              0.2501E-02
+                                           NET TOTAL =0.9274E-04
+0    DETAIL OF NODE   4     TEMPERATURE=0.5194E+02     POWER=0.5000E+02     STABILITY CONSTANT =  0.00E+00     CAP=0.1000E-19
+0      NODE  CTYPE  CMODE       C       CONDUCTANCE        FLUX        REYN NO.   BNDRY LAYER     HYDR DIA    HT TRANS COEF
+          8    -1         0.9000E+02    0.3545E+00    0.1841E+02                                              0.3939E-02
+          9   101     1   0.1000E+03    0.3699E+00    0.1921E+02                                              0.3699E-02
+          1   101     1   0.1000E+03    0.3363E+00    0.1237E+02                                              0.3363E-02
+                                           NET TOTAL =0.5000E+02
+0    DETAIL OF NODE   5     TEMPERATURE=0.5124E+01     POWER=0.0000E+00     STABILITY CONSTANT =  0.00E+00     CAP=0.1000E-19
+0      NODE  CTYPE  CMODE       C       CONDUCTANCE        FLUX        REYN NO.   BNDRY LAYER     HYDR DIA    HT TRANS COEF
+          8    -1         0.9000E+02    0.2755E+00    0.1412E+01                                              0.3061E-02
+          9   101     1   0.1000E+03    0.2135E+00    0.1094E+01                                              0.2135E-02
+          1   101     1   0.1000E+03    0.2501E+00    -.2506E+01                                              0.2501E-02
+                                           NET TOTAL =0.9274E-04
+0    DETAIL OF NODE   6     TEMPERATURE=0.5525E+01     POWER=0.0000E+00     STABILITY CONSTANT =  0.00E+00     CAP=0.1000E-19
+0      NODE  CTYPE  CMODE       C       CONDUCTANCE        FLUX        REYN NO.   BNDRY LAYER     HYDR DIA    HT TRANS COEF
+          8    -1         0.9000E+02    0.2761E+00    0.1525E+01                                              0.3068E-02
+          9   102     2   0.1000E+03    0.2816E+00    0.1556E+01                                              0.2816E-02
+          1   102     2   0.1000E+03    0.3203E+00    -.3081E+01                                              0.3203E-02
+                                           NET TOTAL =0.1771E-03
+0    DETAIL OF NODE   7     TEMPERATURE=0.4365E+01     POWER=0.0000E+00     STABILITY CONSTANT =  0.00E+00     CAP=0.1000E-19
+0      NODE  CTYPE  CMODE       C       CONDUCTANCE        FLUX        REYN NO.   BNDRY LAYER     HYDR DIA    HT TRANS COEF
+          8    -1         0.9000E+02    0.2744E+00    0.1198E+01                                              0.3048E-02
+          9   103     3   0.1000E+03    0.1328E+00    0.5798E+00                                              0.1328E-02
+          1   103     3   0.1000E+03    0.1649E+00    -.1777E+01                                              0.1649E-02
+                                           NET TOTAL =0.2730E-04
+0    DETAIL OF NODE  -8     TEMPERATURE=0.0000E+00     POWER=0.0000E+00     STABILITY CONSTANT =  0.00E+00     CAP=0.1000E-19
+0                           THIS IS A CONSTANT TEMPERATURE NODE
+0      NODE  CTYPE  CMODE       C       CONDUCTANCE        FLUX        REYN NO.   BNDRY LAYER     HYDR DIA    HT TRANS COEF
+          7    -1         0.9000E+02    0.2744E+00    -.1198E+01                                              0.3048E-02
+          6    -1         0.9000E+02    0.2761E+00    -.1525E+01                                              0.3068E-02
+          5    -1         0.9000E+02    0.2755E+00    -.1412E+01                                              0.3061E-02
+          4    -1         0.9000E+02    0.3545E+00    -.1841E+02                                              0.3939E-02
+          3    -1         0.9000E+02    0.2755E+00    -.1412E+01                                              0.3061E-02
+          2    -1         0.9000E+02    0.2755E+00    -.1412E+01                                              0.3061E-02
+                                           NET TOTAL =-.2537E+02
+0    DETAIL OF NODE  -9     TEMPERATURE=0.0000E+00     POWER=0.0000E+00     STABILITY CONSTANT =  0.00E+00     CAP=0.1000E-19
+0                           THIS IS A CONSTANT TEMPERATURE NODE
+0      NODE  CTYPE  CMODE       C       CONDUCTANCE        FLUX        REYN NO.   BNDRY LAYER     HYDR DIA    HT TRANS COEF
+          7   103     3   0.1000E+03    0.1328E+00    -.5798E+00                                              0.1328E-02
+          6   102     2   0.1000E+03    0.2816E+00    -.1556E+01                                              0.2816E-02
+          5   101     1   0.1000E+03    0.2135E+00    -.1094E+01                                              0.2135E-02
+          4   101     1   0.1000E+03    0.3699E+00    -.1921E+02                                              0.3699E-02
+          3   101     1   0.1000E+03    0.2135E+00    -.1094E+01                                              0.2135E-02
+          2   101     1   0.1000E+03    0.2135E+00    -.1094E+01                                              0.2135E-02
+                                           NET TOTAL =-.2463E+02
++                                                                            ENERGY BALANCE =0.3016E-04
+
+1
+1
