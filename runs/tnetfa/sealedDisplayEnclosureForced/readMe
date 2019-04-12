@@ -1,0 +1,2 @@
+This model does not take into account the LCD in the enclosure. Trying to get an idea of the temperature inside the enclosure with predicted 
+power input. Using various elements for forced convection. Turbulent, Laminar etc... to get an idea of a range. I am getting a range of about 8 to 16 degree C rise for a 150W intput. Look into estimating the air flow in the channels.
